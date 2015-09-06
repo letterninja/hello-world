@@ -1,0 +1,13 @@
+// Fizzbuzz in Javascript by Me
+/* The Fizzbuss problem is to 
+  print out every number between 1 and 100
+  except multiples of 3 or 5, which are replaced with either
+  "Fizz" or "Buzz" respectively. */
+
+for (var i=1; i <= 100; i++) {
+  var stuff = ""; // our output variable
+  if (i % 3 == 0) {stuff += "Fizz"}; // Checks for a multiple of 3
+  if (i % 5 == 0) {stuff += "Buzz"}; // Checks for a multiple of 5
+  if (stuff.length == 0) {stuff += i.toString()}; // If neither a multiple of 3 or 5, outputs number
+  console.log(stuff);
+}
