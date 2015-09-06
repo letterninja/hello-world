@@ -1,5 +1,5 @@
 // Fizzbuzz in Javascript by Me
-/* The Fizzbuss problem is to 
+/* The Fizzbuzz problem is to 
   print out every number between 1 and 100
   except multiples of 3 or 5, which are replaced with either
   "Fizz" or "Buzz" respectively. */
